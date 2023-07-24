@@ -1,0 +1,45 @@
+/* using pure css abut also can use SCSS/styled-components */
+body {
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+p {
+    font-size: 14px;
+}
+
+.btn {
+    border-radius: 4px;
+}
+.btn--primary {
+    background-color: #414bb2;
+    color: #fff;
+    font-weight: 500;
+    min-width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn--primary:hover {
+    background-color: #535bf2;
+}
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+}
+
+@media (min-width: 576px) {
+    p {
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+    .section-title {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-title {
+        font-size: 2.6em;
+    }
+}
